@@ -1,5 +1,4 @@
-
-import Day01 from './days/day01'
+import Day01 from './days/Day01.jsx'
 
 function App() {
   return <Day01 />
