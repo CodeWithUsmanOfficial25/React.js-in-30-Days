@@ -1,8 +1,8 @@
 
-import Day01 from './days/Day01.jsx'
+import Day02 from './days/Day02.jsx'
 
 function App() {
-  return <Day01 />
+  return <Day02 />
 }
 
 export default App
