@@ -13,12 +13,13 @@ A hands-on React learning journey featuring daily projects, reusable components,
 ## Daily Progress
 
 | Day | Focus | Status |
-| --- | --- | --- |
+|---|---|---|
 | Day 01 | React project foundation and introductory UI | Completed |
 | Day 02 | JSX expressions, rendering, arrays, reusable components, and conditional rendering | Completed |
 | Day 03 | Props, event handling, `useState`, search, filtering, and interactive UI | Completed |
-| Day 04 | Controlled forms, form validation, task management, and state updates | In progress |
-| Day 05–30 | Upcoming React concepts and projects | Planned |
+| Day 04 | Controlled forms, form validation, task management, and state updates | Completed |
+| Day 05 | Interactive habit tracker, completion progress, filters, and responsive UI | Completed |
+| Day 06–30 | Upcoming React concepts and projects | Planned |
 
 ## Day 01 Features
 
@@ -37,7 +38,7 @@ A hands-on React learning journey featuring daily projects, reusable components,
 
 - Interactive topic cards
 - React state updates with `useState`
-- Completion progress indicator
+- Dynamic completion progress indicator
 - Search topics by title, category, or description
 - Filter topics by status
 - Reset learning progress
@@ -54,6 +55,18 @@ A hands-on React learning journey featuring daily projects, reusable components,
 - Calculate task completion progress dynamically
 - Responsive layout with a warm cream-and-terracotta visual theme
 
+## Day 05 Features
+
+- Interactive daily habit tracker
+- Mark habits as completed or pending
+- Dynamic completion percentage and progress bar
+- Habit statistics and completion summaries
+- Category-based filtering
+- Option to filter completed habits
+- Reset habit progress
+- Responsive habit cards and dashboard layout
+- Dark background with colorful cards, coral accents, and turquoise progress indicators
+
 ## Project Structure
 
 ```text
@@ -62,13 +75,16 @@ src/
 │   ├── day02/
 │   │   ├── StatusBadge.jsx
 │   │   └── TopicCard.jsx
-│   └── day04/
-│       ├── FormField.jsx
-│       └── TaskCard.jsx
+│   ├── day04/
+│   │   ├── FormField.jsx
+│   │   └── TaskCard.jsx
+│   └── day05/
+│       ├── (existing Day 5 component files)
 ├── data/
 │   ├── day02Data.js
 │   ├── day03Data.js
-│   └── day04Data.js
+│   ├── day04Data.js
+│   └── (existing Day 5 data file, if used)
 ├── days/
 │   ├── Day01.jsx
 │   ├── Day01.css
@@ -77,14 +93,16 @@ src/
 │   ├── Day03.jsx
 │   ├── Day03.css
 │   ├── Day04.jsx
-│   └── Day04.css
+│   ├── Day04.css
+│   ├── Day05.jsx
+│   └── Day05.css
 ├── App.jsx
 ├── App.css
 ├── index.css
 └── main.jsx
 ```
 
-*Note: This structure lists the known Day 2 and Day 4 component files. Keep any additional files already present in your repository, including Day 3 component files.*
+*Note: Keep all existing files in your repository. The component and data filenames may vary depending on your implementation.*
 
 ## Run Locally
 
