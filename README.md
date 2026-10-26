@@ -19,7 +19,8 @@ A hands-on React learning journey featuring daily projects, reusable components,
 | Day 03 | Props, event handling, `useState`, search, filtering, and interactive UI | Completed |
 | Day 04 | Controlled forms, form validation, task management, and state updates | Completed |
 | Day 05 | Interactive habit tracker, completion progress, filters, and responsive UI | Completed |
-| Day 06–30 | Upcoming React concepts and projects | Planned |
+| Day 06 | FocusFlow Pomodoro timer, session controls, task checklist, and responsive UI | Completed |
+| Day 07–30 | Upcoming React concepts and projects | Planned |
 
 ## Day 01 Features
 
@@ -67,6 +68,18 @@ A hands-on React learning journey featuring daily projects, reusable components,
 - Responsive habit cards and dashboard layout
 - Dark background with colorful cards, coral accents, and turquoise progress indicators
 
+## Day 06 Features — FocusFlow
+
+- Interactive Pomodoro timer for focused work sessions
+- Start, pause, and reset timer controls
+- Focus, short-break, and long-break modes
+- Session progress and completion feedback
+- Task checklist with the ability to add and complete tasks
+- Session tracking and focus statistics
+- Responsive layout for different screen sizes
+- Bright visual identity featuring lavender, vivid orange, lime, and warm white
+- Distinct typography using Space Grotesk and Outfit
+
 ## Project Structure
 
 ```text
@@ -78,13 +91,15 @@ src/
 │   ├── day04/
 │   │   ├── FormField.jsx
 │   │   └── TaskCard.jsx
-│   └── day05/
-│       ├── (existing Day 5 component files)
+│   ├── day05/
+│   │   └── (existing Day 5 component files)
+│   └── day06/
+│       └── FocusTask.jsx
 ├── data/
 │   ├── day02Data.js
 │   ├── day03Data.js
 │   ├── day04Data.js
-│   └── (existing Day 5 data file, if used)
+│   └── day06Data.js
 ├── days/
 │   ├── Day01.jsx
 │   ├── Day01.css
@@ -95,14 +110,16 @@ src/
 │   ├── Day04.jsx
 │   ├── Day04.css
 │   ├── Day05.jsx
-│   └── Day05.css
+│   ├── Day05.css
+│   ├── Day06.jsx
+│   └── Day06.css
 ├── App.jsx
 ├── App.css
 ├── index.css
 └── main.jsx
 ```
 
-*Note: Keep all existing files in your repository. The component and data filenames may vary depending on your implementation.*
+*Note: This structure highlights the known project files. Keep all existing files, and adjust the tree if your local filenames differ.*
 
 ## Run Locally
 
@@ -137,7 +154,7 @@ npm run build
 
 Each day focuses on practical implementation rather than notes alone. Projects are organized into reusable components, separate data files, and day-specific styling where appropriate.
 
-The repository will continue to evolve as new React concepts, interactive features, and projects are completed.
+The visual design evolves throughout the journey, with distinct color palettes and layouts for different projects. The repository will continue to grow as new React concepts, interactive features, and projects are completed.
 
 ---
 
