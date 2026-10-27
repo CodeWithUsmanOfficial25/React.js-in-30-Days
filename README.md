@@ -1,4 +1,4 @@
-# React.js in 30 Days
+﻿# React.js in 30 Days
 
 A hands-on React learning journey featuring daily projects, reusable components, responsive interfaces, and practical React patterns.
 
@@ -20,7 +20,8 @@ A hands-on React learning journey featuring daily projects, reusable components,
 | Day 04 | Controlled forms, form validation, task management, and state updates | Completed |
 | Day 05 | Interactive habit tracker, completion progress, filters, and responsive UI | Completed |
 | Day 06 | FocusFlow Pomodoro timer, session controls, task checklist, and responsive UI | Completed |
-| Day 07–30 | Upcoming React concepts and projects | Planned |
+| Day 07 | PixelForge creative portfolio, project search, category filters, saved projects, and grid/list views | Completed |
+| Day 08–30 | Upcoming React concepts and projects | Planned |
 
 ## Day 01 Features
 
@@ -37,13 +38,11 @@ A hands-on React learning journey featuring daily projects, reusable components,
 
 ## Day 03 Features
 
-- Interactive topic cards
-- React state updates with `useState`
+- Interactive topic cards and `useState`
 - Dynamic completion progress indicator
 - Search topics by title, category, or description
-- Filter topics by status
-- Reset learning progress
-- Responsive layout with a dark and electric-cyan visual theme
+- Filter topics by status and reset learning progress
+- Responsive dark and electric-cyan visual theme
 
 ## Day 04 Features
 
@@ -52,33 +51,41 @@ A hands-on React learning journey featuring daily projects, reusable components,
 - Add tasks with a title, topic, and priority
 - Validate task titles before submission
 - Mark tasks as completed or pending
-- Filter tasks by completion status
-- Calculate task completion progress dynamically
-- Responsive layout with a warm cream-and-terracotta visual theme
+- Filter tasks and calculate completion progress dynamically
+- Responsive cream-and-terracotta visual theme
 
 ## Day 05 Features
 
 - Interactive daily habit tracker
 - Mark habits as completed or pending
 - Dynamic completion percentage and progress bar
-- Habit statistics and completion summaries
-- Category-based filtering
-- Option to filter completed habits
+- Habit statistics, category filtering, and completion summaries
 - Reset habit progress
-- Responsive habit cards and dashboard layout
-- Dark background with colorful cards, coral accents, and turquoise progress indicators
+- Responsive cards with coral and turquoise accents
 
 ## Day 06 Features — FocusFlow
 
 - Interactive Pomodoro timer for focused work sessions
-- Start, pause, and reset timer controls
+- Start, pause, and reset controls
 - Focus, short-break, and long-break modes
 - Session progress and completion feedback
-- Task checklist with the ability to add and complete tasks
-- Session tracking and focus statistics
-- Responsive layout for different screen sizes
-- Bright visual identity featuring lavender, vivid orange, lime, and warm white
-- Distinct typography using Space Grotesk and Outfit
+- Add and complete tasks using an interactive checklist
+- Responsive bright design with lavender, orange, lime, and warm white
+- Typography using Space Grotesk and Outfit
+
+## Day 07 Features — PixelForge
+
+- Creative portfolio and project gallery
+- Reusable project cards powered by props
+- Separate project data and component files
+- Search projects by title, category, description, or tags
+- Filter projects by category
+- Save and unsave favorite projects
+- Filter the gallery to show saved projects
+- Switch between grid and list layouts
+- Empty state and reset filters
+- Responsive editorial layout with cobalt blue, acid yellow, paper white, and ink-black details
+- Typography using Space Grotesk and Space Mono
 
 ## Project Structure
 
@@ -86,20 +93,14 @@ A hands-on React learning journey featuring daily projects, reusable components,
 src/
 ├── components/
 │   ├── day02/
-│   │   ├── StatusBadge.jsx
-│   │   └── TopicCard.jsx
 │   ├── day04/
-│   │   ├── FormField.jsx
-│   │   └── TaskCard.jsx
-│   ├── day05/
-│   │   └── (existing Day 5 component files)
-│   └── day06/
-│       └── FocusTask.jsx
+│   └── day07/
+│       └── ProjectCard.jsx
 ├── data/
 │   ├── day02Data.js
 │   ├── day03Data.js
 │   ├── day04Data.js
-│   └── day06Data.js
+│   └── day07Data.js
 ├── days/
 │   ├── Day01.jsx
 │   ├── Day01.css
@@ -112,14 +113,16 @@ src/
 │   ├── Day05.jsx
 │   ├── Day05.css
 │   ├── Day06.jsx
-│   └── Day06.css
+│   ├── Day06.css
+│   ├── Day07.jsx
+│   └── Day07.css
 ├── App.jsx
 ├── App.css
 ├── index.css
 └── main.jsx
 ```
 
-*Note: This structure highlights the known project files. Keep all existing files, and adjust the tree if your local filenames differ.*
+*This is a representative structure. Existing files and components for earlier days are retained in the repository.*
 
 ## Run Locally
 
@@ -146,15 +149,16 @@ npm run build
 - React
 - JavaScript (ES6+)
 - JSX
+- React Hooks (`useState`, `useMemo`)
 - Vite
 - CSS
 - Git and GitHub
 
 ## Learning Approach
 
-Each day focuses on practical implementation rather than notes alone. Projects are organized into reusable components, separate data files, and day-specific styling where appropriate.
+Each day focuses on practical implementation rather than notes alone. Projects use reusable components, separate data files, interactive state, and day-specific styling where appropriate.
 
-The visual design evolves throughout the journey, with distinct color palettes and layouts for different projects. The repository will continue to grow as new React concepts, interactive features, and projects are completed.
+The visual direction changes throughout the journey to explore different design styles, layouts, and project niches.
 
 ---
 
