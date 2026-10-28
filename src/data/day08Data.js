@@ -1,0 +1,100 @@
+﻿export const destinations = [
+  {
+    id: 1,
+    name: "Amalfi Coast",
+    country: "Italy",
+    region: "Europe",
+    category: "Coastal",
+    price: 185,
+    days: 5,
+    rating: 4.9,
+    season: "May – September",
+    description: "Sunlit villages, winding coastal roads and long lunches beside the sea.",
+    image: "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1000&q=85",
+    accent: "terracotta",
+    tag: "Editor's pick"
+  },
+  {
+    id: 2,
+    name: "Kyoto",
+    country: "Japan",
+    region: "Asia",
+    category: "Culture",
+    price: 140,
+    days: 4,
+    rating: 4.8,
+    season: "March – May",
+    description: "Quiet temple gardens, lantern-lit streets and timeless Japanese traditions.",
+    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&q=85",
+    accent: "sage",
+    tag: "Slow travel"
+  },
+  {
+    id: 3,
+    name: "Swiss Alps",
+    country: "Switzerland",
+    region: "Europe",
+    category: "Adventure",
+    price: 230,
+    days: 6,
+    rating: 4.9,
+    season: "June – September",
+    description: "Alpine trails, clear mountain lakes and little villages in the clouds.",
+    image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1000&q=85",
+    accent: "blue",
+    tag: "Wild escape"
+  },
+  {
+    id: 4,
+    name: "Marrakech",
+    country: "Morocco",
+    region: "Africa",
+    category: "Culture",
+    price: 95,
+    days: 3,
+    rating: 4.7,
+    season: "March – May",
+    description: "Hidden riads, spice markets and warm evenings in the old medina.",
+    image: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=1000&q=85",
+    accent: "terracotta",
+    tag: "Local favourite"
+  },
+  {
+    id: 5,
+    name: "Bali",
+    country: "Indonesia",
+    region: "Asia",
+    category: "Nature",
+    price: 110,
+    days: 7,
+    rating: 4.8,
+    season: "April – October",
+    description: "Emerald rice terraces, jungle hideaways and slow tropical mornings.",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85",
+    accent: "sage",
+    tag: "Nature retreat"
+  },
+  {
+    id: 6,
+    name: "Patagonia",
+    country: "Argentina",
+    region: "South America",
+    category: "Adventure",
+    price: 260,
+    days: 8,
+    rating: 4.9,
+    season: "November – March",
+    description: "Dramatic peaks, glacial lakes and landscapes that feel otherworldly.",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85",
+    accent: "blue",
+    tag: "Big adventure"
+  }
+];
+
+export const travelCategories = [
+  "All places",
+  "Coastal",
+  "Culture",
+  "Adventure",
+  "Nature"
+];
