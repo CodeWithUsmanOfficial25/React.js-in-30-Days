@@ -1,84 +1,62 @@
 # React.js in 30 Days
 
-A hands-on React journey featuring a complete, interactive mini-project for each learning day.
+A practical 30-day React.js learning journey with hands-on projects.
 
-## Day 09 — SpendWise
+## Day 10 - RecipeBox
 
-SpendWise is a responsive personal finance dashboard built with React. It helps users explore income, expenses, transactions, and monthly category budgets using sample data.
+RecipeBox is a responsive recipe discovery and personal recipe collection app built with React.
 
 ### Features
 
-- Overview dashboard with balance, income, expenses, and savings rate
-- Add and delete income or expense transactions
-- Transaction search and filters for type and category
-- Monthly budgets for nine expense categories
-- Spending progress indicators and overspending insights
-- Editable budgets with validation
-- Resettable demo data
-- Responsive desktop, tablet, and mobile layout
-- Pakistani rupee formatting
-- Reusable transaction item and metric components
+- Browse a collection of sample recipes
+- Search recipes by title, description or category
+- Filter recipes by meal category
+- Save and remove favorite recipes
+- View recipe details, ingredients and instructions
+- Add custom recipes through a controlled form
+- Filter the collection to show favorites
+- Reset the demo collection
+- Responsive layouts for desktop, tablet and mobile
 
-### Tech stack
+### Tech Stack
 
 - React
-- Vite
 - JavaScript
 - CSS
-- React hooks: useState and useMemo
+- Vite
 
-### Run locally
+### Project Structure
 
-1. Install Node.js.
-2. Clone this repository.
-3. Open the project folder in a terminal.
-4. Install dependencies:
-
-   ``bash
-   npm install
-   ``
-
-5. Start the development server:
-
-   ``bash
-   npm run dev
-   ``
-
-6. Open the local URL printed by Vite.
-
-### Production build
-
-``bash
-npm run build
-``
-
-### Project structure
-
-``text
+```text
 src/
-  components/
-    day09/
-      TransactionItem.jsx
-  data/
-    day09Data.js
-  days/
-    Day09.jsx
-    Day09.css
-  App.jsx
-``
+├── components/
+│   └── day10/
+│       └── RecipeCard.jsx
+├── data/
+│   └── day10Data.js
+├── days/
+│   ├── Day10.jsx
+│   └── Day10.css
+└── App.jsx
+```
 
-### Data and privacy
+### Run Locally
 
-This is a learning project using local sample data. It does not connect to a bank, store data on a server, or provide financial advice. Transactions and budget changes reset when the page is refreshed.
+```bash
+npm install
+npm run dev
+```
 
-## Learning roadmap
+### Build
 
-- Day 01 — React foundations
-- Day 02 — Reusable UI components
-- Day 03 — Interactive learning dashboard
-- Day 04 — Study planner
-- Day 05 — Habit tracker
-- Day 06 — FocusFlow Pomodoro timer
-- Day 07 — PixelForge portfolio gallery
-- Day 08 — Roamly travel discovery
-- Day 09 — SpendWise personal finance dashboard
+```bash
+npm run build
+```
+
+### Note
+
+RecipeBox uses sample recipe data. Custom recipes and favorites are kept in the current app session and are not connected to a backend or database.
+
+---
+
+More daily projects will be added as the learning journey continues.
