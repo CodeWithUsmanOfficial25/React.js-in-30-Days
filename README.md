@@ -1,22 +1,28 @@
 # React.js in 30 Days
 
-A practical 30-day React.js learning journey with hands-on projects.
+A practical 30-day React.js learning journey featuring hands-on projects.
 
-## Day 10 - RecipeBox
+## Day 11 - MoodCanvas
 
-RecipeBox is a responsive recipe discovery and personal recipe collection app built with React.
+MoodCanvas is a personal mood tracker and journal built with React. It gives users a simple space to record daily feelings and review their mood history.
 
 ### Features
 
-- Browse a collection of sample recipes
-- Search recipes by title, description or category
-- Filter recipes by meal category
-- Save and remove favorite recipes
-- View recipe details, ingredients and instructions
-- Add custom recipes through a controlled form
-- Filter the collection to show favorites
-- Reset the demo collection
-- Responsive layouts for desktop, tablet and mobile
+- Four circular mood selectors: Happy, Calm, Neutral and Sad
+- Daily mood check-in with a personal journal note
+- Save a new entry or update today's entry
+- Mood statistics and mood balance score
+- Filter journal history by mood
+- Delete individual journal entries
+- Reset the sample journal
+- Responsive glassmorphism interface
+
+### Design
+
+- Soft lavender, rose, peach and blue gradients
+- Translucent glass cards and blurred ambient backgrounds
+- Circular mood selection controls
+- Syne and Nunito Sans typography
 
 ### Tech Stack
 
@@ -30,13 +36,14 @@ RecipeBox is a responsive recipe discovery and personal recipe collection app bu
 ```text
 src/
 ├── components/
-│   └── day10/
-│       └── RecipeCard.jsx
+│   └── day11/
+│       ├── MoodOption.jsx
+│       └── MoodEntry.jsx
 ├── data/
-│   └── day10Data.js
+│   └── day11Data.js
 ├── days/
-│   ├── Day10.jsx
-│   └── Day10.css
+│   ├── Day11.jsx
+│   └── Day11.css
 └── App.jsx
 ```
 
@@ -47,7 +54,7 @@ npm install
 npm run dev
 ```
 
-### Build
+### Production Build
 
 ```bash
 npm run build
@@ -55,8 +62,8 @@ npm run build
 
 ### Note
 
-RecipeBox uses sample recipe data. Custom recipes and favorites are kept in the current app session and are not connected to a backend or database.
+This project uses local React state and sample journal entries. Entries are not stored in a backend or database and will reset when the page is refreshed.
 
 ---
 
-More daily projects will be added as the learning journey continues.
+More projects will be added throughout the 30-day journey.
