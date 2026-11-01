@@ -1,28 +1,32 @@
 # React.js in 30 Days
 
-A practical 30-day React.js learning journey featuring hands-on projects.
+A practical 30-day React.js learning journey with hands-on projects.
 
-## Day 11 - MoodCanvas
+## Day 12 - StockSphere
 
-MoodCanvas is a personal mood tracker and journal built with React. It gives users a simple space to record daily feelings and review their mood history.
+StockSphere is an intermediate-level inventory management dashboard designed for small businesses and shop owners.
 
 ### Features
 
-- Four circular mood selectors: Happy, Calm, Neutral and Sad
-- Daily mood check-in with a personal journal note
-- Save a new entry or update today's entry
-- Mood statistics and mood balance score
-- Filter journal history by mood
-- Delete individual journal entries
-- Reset the sample journal
-- Responsive glassmorphism interface
+- Add, edit and delete products
+- Manage product names, SKU, category, price and stock quantity
+- Increase or decrease stock with circular controls
+- Search products by name or SKU
+- Filter by category and stock status
+- Automatic low-stock and out-of-stock alerts
+- Dashboard statistics for products, units and inventory value
+- Circular stock-level indicators and stock-health visualization
+- Persistent product data using browser localStorage
+- Restore the original sample inventory
 
 ### Design
 
-- Soft lavender, rose, peach and blue gradients
-- Translucent glass cards and blurred ambient backgrounds
-- Circular mood selection controls
-- Syne and Nunito Sans typography
+- Black and deep forest-green palette
+- Claymorphism raised surfaces
+- Neumorphic inset search fields and form controls
+- Circular buttons, icons and stock indicators
+- Space Grotesk and Inter typography
+- Responsive dashboard layout
 
 ### Tech Stack
 
@@ -30,20 +34,20 @@ MoodCanvas is a personal mood tracker and journal built with React. It gives use
 - JavaScript
 - CSS
 - Vite
+- Browser localStorage
 
 ### Project Structure
 
 ```text
 src/
 ├── components/
-│   └── day11/
-│       ├── MoodOption.jsx
-│       └── MoodEntry.jsx
+│   └── day12/
+│       └── ProductCard.jsx
 ├── data/
-│   └── day11Data.js
+│   └── day12Data.js
 ├── days/
-│   ├── Day11.jsx
-│   └── Day11.css
+│   ├── Day12.jsx
+│   └── Day12.css
 └── App.jsx
 ```
 
@@ -60,10 +64,10 @@ npm run dev
 npm run build
 ```
 
-### Note
+### Data Storage
 
-This project uses local React state and sample journal entries. Entries are not stored in a backend or database and will reset when the page is refreshed.
+Products are stored in browser localStorage on the current browser and device. This project does not yet use a server, database, authentication or multi-user synchronization.
 
 ---
 
-More projects will be added throughout the 30-day journey.
+More projects will be added throughout the 30-day learning journey.
