@@ -1,73 +1,49 @@
 # React.js in 30 Days
 
-A practical 30-day React.js learning journey with hands-on projects.
+A practical collection of React projects built while learning React through hands-on development.
 
-## Day 12 - StockSphere
+## Day 13 — PulseWatch
 
-StockSphere is an intermediate-level inventory management dashboard designed for small businesses and shop owners.
+PulseWatch is a real-time-style infrastructure monitoring dashboard. It simulates live telemetry in the browser and presents service health, system metrics, incidents, and an activity stream in one responsive interface.
 
 ### Features
 
-- Add, edit and delete products
-- Manage product names, SKU, category, price and stock quantity
-- Increase or decrease stock with circular controls
-- Search products by name or SKU
-- Filter by category and stock status
-- Automatic low-stock and out-of-stock alerts
-- Dashboard statistics for products, units and inventory value
-- Circular stock-level indicators and stock-health visualization
-- Persistent product data using browser localStorage
-- Restore the original sample inventory
+- Live simulated CPU, memory, request, and response metrics
+- Automatically refreshing service telemetry
+- Pause and resume monitoring
+- Service search and status filters
+- Service inspection modal
+- Incident acknowledgement and resolution workflow
+- Live activity stream
+- Uptime overview and visual indicators
+- Responsive layout for desktop, tablet, and mobile
+- CSS orbital 3D sphere animation
+- Glassmorphism and clay-inspired neumorphic surfaces
 
 ### Design
 
-- Black and deep forest-green palette
-- Claymorphism raised surfaces
-- Neumorphic inset search fields and form controls
-- Circular buttons, icons and stock indicators
-- Space Grotesk and Inter typography
-- Responsive dashboard layout
+- Monochrome white, black, and silver palette
+- Space Grotesk and IBM Plex Sans typography
+- Circular visual elements and pill-shaped controls
+- CSS-based 3D motion and depth effects
 
-### Tech Stack
-
-- React
-- JavaScript
-- CSS
-- Vite
-- Browser localStorage
-
-### Project Structure
-
-```text
-src/
-├── components/
-│   └── day12/
-│       └── ProductCard.jsx
-├── data/
-│   └── day12Data.js
-├── days/
-│   ├── Day12.jsx
-│   └── Day12.css
-└── App.jsx
-```
-
-### Run Locally
+### Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-### Production Build
+### Build
 
 ```bash
 npm run build
 ```
 
-### Data Storage
+### Data note
 
-Products are stored in browser localStorage on the current browser and device. This project does not yet use a server, database, authentication or multi-user synchronization.
+This project uses simulated browser-side telemetry. It does not connect to real servers or external monitoring APIs. A backend and monitoring integrations would be required for production infrastructure monitoring.
 
 ---
 
-More projects will be added throughout the 30-day learning journey.
+More daily projects will be added as the learning journey progresses.
