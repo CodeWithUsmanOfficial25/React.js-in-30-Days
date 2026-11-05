@@ -77,3 +77,67 @@ Harvestly demonstrates how React can be used to build an interactive grocery mar
 **Note:** This is a frontend concept/demo. Checkout is simulated locally and does not process real payments or connect to a backend or payment gateway.
 
 **Status:** Completed — Day 15 of 30
+## Day 16 — ArcadeVerse | 3D Gaming Arena
+
+A bold gaming arcade experience built with React and CSS, combining interactive mini-games, 3D-inspired visuals, claymorphism, and neumorphic interface elements.
+
+### Features
+- 3D-inspired gaming dashboard with a floating controller illustration
+- Animated orbital rings, floating elements, and scrolling arcade ticker
+- Orange, graphite, and warm grey visual theme
+- Claymorphism and neumorphic surfaces with layered depth and soft shadows
+- Interactive game selection cards with 3D hover transformations
+- Memory Matrix game with randomized cards, matching pairs, move counter, and scoring
+- Reaction Rush game with random signal timing and reaction measurement
+- Personal best reaction time tracking during the session
+- Live player statistics and game progress display
+- Restart functionality for mini-games
+- Modal-based gameplay experience
+- Responsive layout for desktop, tablet, and mobile
+- Reduced-motion accessibility support
+
+### Tech
+- React
+- Vite
+- JavaScript ES6+
+- CSS3 and CSS 3D transforms
+- CSS keyframe animations
+- React useState, useEffect, and useRef
+- Component-based architecture
+
+### Concepts Practiced
+- Reusable components and props
+- State management and conditional rendering
+- Dynamic list rendering
+- Event handling
+- Timers and cleanup with useEffect
+- React refs for tracking reaction timing
+- Array methods for game logic
+- Derived statistics and score calculations
+- Responsive and accessible UI design
+
+### Project Structure
+```text
+src/
+├── components/
+│   └── day16/
+│       └── GameCard.jsx
+├── data/
+│   └── day16Data.js
+├── days/
+│   ├── Day16.jsx
+│   └── Day16.css
+└── App.jsx
+```
+
+### Run
+```bash
+npm install
+npm run dev
+```
+
+Note: ArcadeVerse is a frontend gaming concept/demo. Game scores and personal bests are maintained locally during the current session and are not saved to a backend or database. Pixel Quest and Cyber Drift are preview cards for future game experiences.
+
+**Status:** Completed — Day 16 of 30
+
+---
