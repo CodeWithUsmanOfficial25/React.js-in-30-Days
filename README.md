@@ -141,3 +141,33 @@ Note: ArcadeVerse is a frontend gaming concept/demo. Game scores and personal be
 **Status:** Completed — Day 16 of 30
 
 ---
+
+## Day 17 - 3D Cosmic Galaxy
+
+An immersive 3D cosmic experience built with React, Vite and Three.js.
+
+### Features
+- Interactive 3D spiral galaxy with thousands of particles
+- Glowing central star and animated orbital rings
+- Floating planet and deep-space starfield
+- Mouse-responsive camera movement
+- Animated cosmic interface with blue and orange accents
+- Discovery cards, responsive layout and cinematic styling
+
+### Technologies
+- React
+- Vite
+- Three.js
+- JavaScript
+- CSS
+
+### Run locally
+```bash
+npm install
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
