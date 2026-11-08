@@ -60,7 +60,7 @@ export default function Day18() {
               <div className="intro-bottom"><span>07 COLLECTIONS</span><span>42+ MODELS</span><span>01 DESTINATION</span></div>
             </div>
             <div className="intro-art">
-              <img src="https://loremflickr.com/1200/900/luxury,sports,car?lock=1818" alt="Premium vehicle" onError={(event) => { event.currentTarget.src = "https://placehold.co/1200x900/20251f/f2f2e9?text=Vanta+Motors"; }} />
+              <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=90" alt="Premium vehicle" onError={(event) => { event.currentTarget.src = "https://placehold.co/1200x900/20251f/f2f2e9?text=Vanta+Motors"; }} />
               <div className="art-caption"><span>01 / COLLECTION</span><strong>Move with intention.</strong></div>
               <div className="art-stamp">V<br />M</div>
             </div>
@@ -102,3 +102,4 @@ export default function Day18() {
     </main>
   );
 }
+
