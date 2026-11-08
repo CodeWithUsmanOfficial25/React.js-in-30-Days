@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#10130f">
+    <meta name="description" content="Explore premium cars, motorcycles, buses, bicycles, SUVs, trucks and electric vehicles at VeloVault.">
+    <title>VeloVault | Premium Vehicle Showroom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <header class="header">
+        <a href="#" class="brand">
+            <span class="brand-symbol">V</span>
+            <span>VELO<span class="brand-accent">VAULT</span></span>
+        </a>
+
+        <nav class="header-nav">
+            <a href="#home">Home</a>
+            <a href="#showroom">Showroom</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#showroom" class="header-cta">Explore Collection <span>↗</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="eyebrow"><span class="status-dot"></span> THE NEXT GENERATION OF MOBILITY</div>
+                <h1>Find Your<br>Perfect <span>Drive.</span></h1>
+                <p class="hero-description">
+                    From iconic supercars to everyday adventures.
+                    Discover the world's finest vehicles, all in one destination.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#showroom" class="primary-btn">Explore Showroom <span>→</span></a>
+                    <a href="#about" class="secondary-btn">Discover VeloVault</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div><strong>42+</strong><span>VEHICLE MODELS</span></div>
+                    <div><strong>07</strong><span>CATEGORIES</span></div>
+                    <div><strong>100%</strong><span>PASSION FOR DRIVING</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image-frame">
+                    <img src="https://loremflickr.com/1100/800/luxury,sports,car?lock=1001" alt="Luxury sports car" onerror="this.onerror=null;this.src='https://placehold.co/1100x800/182018/ff862b?text=Premium+Cars'">
+                    <div class="hero-image-overlay"></div>
+                    <div class="hero-image-label">
+                        <span>FEATURED COLLECTION</span>
+                        <strong>Beyond Ordinary.</strong>
+                    </div>
+                    <div class="hero-floating-card">
+                        <span class="floating-icon">✦</span>
+                        <div><strong>Drive Different</strong><small>Discover your next ride</small></div>
+                    </div>
+                </div>
+                <div class="hero-orbit"></div>
+            </div>
+        </section>
+
+        <section class="showroom section" id="showroom">
+            <div class="section-heading">
+                <div>
+                    <div class="eyebrow"><span class="status-dot"></span> OUR COLLECTION</div>
+                    <h2>Explore the <span>Showroom.</span></h2>
+                    <p>Choose your category. Discover your machine. Find your perfect match.</p>
+                </div>
+                <div class="collection-count"><strong id="resultCount">42</strong><span>VEHICLES AVAILABLE</span></div>
+            </div>
+
+            <div class="showroom-toolbar">
+                <div class="category-list" id="categoryList">
+                    <button class="category-btn active" data-category="all">All Vehicles</button>
+                    <button class="category-btn" data-category="cars">Cars</button>
+                    <button class="category-btn" data-category="bikes">Motorcycles</button>
+                    <button class="category-btn" data-category="buses">Buses</button>
+                    <button class="category-btn" data-category="bicycles">Bicycles</button>
+                    <button class="category-btn" data-category="suvs">SUVs</button>
+                    <button class="category-btn" data-category="trucks">Trucks</button>
+                    <button class="category-btn" data-category="electric">Electric</button>
+                </div>
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input id="searchInput" type="search" placeholder="Search vehicles, brands..." autocomplete="off">
+                    <kbd>⌕</kbd>
+                </div>
+            </div>
+
+            <div class="category-intro" id="categoryIntro">
+                <div>
+                    <span class="intro-kicker">THE COMPLETE COLLECTION</span>
+                    <h3>Every Journey Starts Here.</h3>
+                </div>
+                <span class="intro-number">01 — 07</span>
+            </div>
+
+            <div class="vehicle-grid" id="vehicleGrid"></div>
+
+            <div class="empty-state hidden" id="emptyState">
+                <div>⌕</div>
+                <h3>No vehicles found</h3>
+                <p>Try another search or choose a different category.</p>
+                <button class="primary-btn" id="resetFilters">View All Vehicles</button>
+            </div>
+        </section>
+
+        <section class="featured section" id="about">
+            <div class="featured-copy">
+                <div class="eyebrow"><span class="status-dot"></span> WHY VELOVAULT</div>
+                <h2>More Than<br>A <span>Showroom.</span></h2>
+                <p>We bring different worlds of mobility together. Whether you love speed, comfort, adventure or sustainable travel, your next machine is waiting here.</p>
+                <a href="#showroom" class="primary-btn">Discover the Collection →</a>
+            </div>
+
+            <div class="benefit-grid">
+                <article class="benefit-card"><span>✦</span><h3>Curated Collection</h3><p>Explore carefully selected vehicles from renowned manufacturers.</p></article>
+                <article class="benefit-card"><span>◈</span><h3>Detailed Insights</h3><p>Compare specifications, variants, performance and features.</p></article>
+                <article class="benefit-card"><span>↗</span><h3>Easy Discovery</h3><p>Find your ideal vehicle with a simple browsing experience.</p></article>
+                <article class="benefit-card"><span>⚡</span><h3>Future Mobility</h3><p>Discover electric, hybrid and next-generation transportation.</p></article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div>
+                <span class="eyebrow">STAY IN THE DRIVER'S SEAT</span>
+                <h2>Your Next Ride Is Calling.</h2>
+                <p>Explore the collection and discover something extraordinary.</p>
+            </div>
+            <a href="#showroom" class="primary-btn">Explore Now →</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="brand"><span class="brand-symbol">V</span><span>VELO<span class="brand-accent">VAULT</span></span></a>
+        <p>Designed for those who love the journey.</p>
+        <span>© 2026 VeloVault. All rights reserved.</span>
+    </footer>
+
+    <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+        <section class="vehicle-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Close details">×</button>
+            <div class="modal-image">
+                <img id="modalImage" src="" alt="">
+                <span class="modal-category" id="modalCategory"></span>
+            </div>
+            <div class="modal-content">
+                <div class="eyebrow"><span class="status-dot"></span> VEHICLE DETAILS</div>
+                <span class="modal-brand" id="modalBrand"></span>
+                <h2 id="modalTitle"></h2>
+                <p class="modal-description" id="modalDescription"></p>
+
+                <div class="modal-price-row">
+                    <div><small>STARTING PRICE</small><strong id="modalPrice"></strong></div>
+                    <span class="availability"><span class="status-dot"></span> Collection listing</span>
+                </div>
+
+                <div class="variant-section">
+                    <div class="variant-heading"><h3>Choose a Variant</h3><span id="variantCount"></span></div>
+                    <div class="variant-list" id="variantList"></div>
+                </div>
+
+                <div class="spec-grid" id="specGrid"></div>
+
+                <div class="features-section">
+                    <h3>Key Features</h3>
+                    <ul id="featureList"></ul>
+                </div>
+                <p class="modal-disclaimer">Specifications and prices are illustrative showroom information and may vary by market, model year and manufacturer.</p>
+            </div>
+        </section>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
