@@ -1,7 +1,8 @@
-﻿import Day17 from "./days/Day17";
+﻿import React from "react";
+import Day18 from "./days/Day18";
 
 function App() {
-  return <Day17 />;
+  return <Day18 />;
 }
 
 export default App;
