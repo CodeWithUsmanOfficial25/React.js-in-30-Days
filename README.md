@@ -171,3 +171,90 @@ npm run dev
 ```bash
 npm run build
 ```
+
+## Day 18 — Vanta Motors | Interactive Vehicle Showroom
+
+A premium vehicle discovery experience built with React and CSS. Vanta Motors organizes multiple vehicle categories into dedicated dashboards, with individual model details and selectable configurations.
+
+### Features
+
+- Dedicated main vehicle dashboard with seven vehicle categories
+- Separate category dashboard for Cars, Motorcycles, Buses, Bicycles, SUVs, Trucks, and Electric Vehicles
+- Six vehicle models in every category
+- Individual vehicle cards with online vehicle photography
+- Dedicated model detail view for every selected vehicle
+- Three selectable configurations for every model: Standard, Premium, and Performance
+- Dynamic specifications including engine, power, transmission, and variant features
+- Live search within the selected vehicle category
+- Category and model navigation with back controls
+- Responsive layouts for desktop, tablet, and mobile screens
+- Claymorphism and neumorphic card surfaces
+- Layered shadows, soft highlights, image hover effects, and subtle animations
+- Reduced-motion accessibility support
+- Remote image URLs with fallback images
+
+### Tech Stack
+
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- React Hooks (`useState`, `useEffect`, `useMemo`)
+- Component-Based Architecture
+- Responsive Web Design
+
+### Key Concepts Practiced
+
+- Creating reusable React components
+- Managing navigation between dashboard views
+- State management with `useState`
+- Handling keyboard events and cleanup with `useEffect`
+- Filtering data with `filter()`
+- Optimizing derived data with `useMemo`
+- Rendering dynamic collections with `map()`
+- Passing data and event handlers through props
+- Conditional rendering
+- Working with structured JavaScript data
+- Building interactive variant selectors
+- Responsive CSS layouts and accessible motion preferences
+
+### Project Structure
+
+```text
+src/
+├── components/
+│   └── day18/
+│       ├── CategoryFilter.jsx
+│       ├── SearchBar.jsx
+│       ├── VehicleCard.jsx
+│       └── VehicleModal.jsx
+├── data/
+│   └── day18Data.js
+├── days/
+│   ├── Day18.jsx
+│   └── Day18.css
+└── App.jsx
+```
+
+### Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+### Project Overview
+
+Vanta Motors demonstrates a multi-level vehicle browsing experience. Users start from the vehicle category dashboard, open a dedicated dashboard for a category, explore its models, and view a selected model's specifications and variants.
+
+**Note:** This is a frontend concept/demo. Vehicle prices and specifications are illustrative sample data, not live dealership listings. Vehicle photographs are loaded from external image URLs and require an internet connection.
+
+**Status:** Completed — Day 18 of 30
+
+---
