@@ -270,3 +270,12 @@ Vanta Motors demonstrates a multi-level vehicle browsing experience. Users start
 - Local image assets stored in `public/images/day19/`.
 
 Run with `npm run dev`. Homepage: `/` | Day 18: `/day18`.
+
+## Day 20 — BLOOMSCAPE
+- Nature-inspired immersive landing page
+- Full-screen cherry blossom forest hero using a direct Pexels image URL
+- Continuous falling sakura petals with CSS 3D transforms
+- Animated forest background and floating elements
+- Botanical discovery cards with 3D hover interactions
+- Responsive layout and mobile navigation
+- Forest green, warm brown, cream and blossom pink palette
