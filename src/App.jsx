@@ -1,21 +1,7 @@
-﻿import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Day18 from "./days/Day18";
-import Day19 from "./days/Day19";
+﻿import Day20 from "./days/Day20";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Day19 />} />
-        <Route path="/destinations/:slug" element={<Day19 />} />
-        <Route path="/about" element={<Day19 />} />
-        <Route path="/contact" element={<Day19 />} />
-        <Route path="/day18" element={<Day18 />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Day20 />;
 }
 
 export default App;
