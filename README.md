@@ -279,3 +279,11 @@ Run with `npm run dev`. Homepage: `/` | Day 18: `/day18`.
 - Botanical discovery cards with 3D hover interactions
 - Responsive layout and mobile navigation
 - Forest green, warm brown, cream and blossom pink palette
+
+
+## Day 21 — AQUARIA: 3D Ocean Discovery Experience
+
+- Built an interactive marine-life discovery experience with habitat filters and species search.
+- Added a cinematic ocean hero, underwater gallery, conservation section and species detail modal.
+- Used claymorphism and neumorphism with a fresh midnight-ocean, aqua and coral palette.
+- Added 3D tilt interactions, floating depth elements, animated bubbles, parallax and responsive layouts.
