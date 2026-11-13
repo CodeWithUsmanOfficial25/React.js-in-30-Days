@@ -1,7 +1,6 @@
-﻿import Day20 from "./days/Day20";
+﻿import React from "react";
+import Day21 from "./days/Day21";
 
-function App() {
-  return <Day20 />;
+export default function App() {
+  return <Day21 />;
 }
-
-export default App;
