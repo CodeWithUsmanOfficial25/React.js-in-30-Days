@@ -296,3 +296,12 @@ Run with `npm run dev`. Homepage: `/` | Day 18: `/day18`.
 - Interactions: Species search, habitat filters and animal detail modal
 - Visuals: Wildlife photography, animated hero, floating elements and image gallery
 - Responsive: Desktop, tablet and mobile layouts
+
+## Day 23 - AEROLITH: 3D Aviation Explorer
+
+- Theme: Aircraft discovery and aviation engineering
+- Palette: Midnight Navy, Electric Cyan, Flight Orange
+- Design: Claymorphism, neumorphism and layered 3D cards
+- Interactions: Aircraft search, category filters, aircraft specification modal and rotating flight facts
+- Visuals: Aviation photography, animated hero, floating elements and gallery
+- Responsive: Desktop, tablet and mobile layouts
