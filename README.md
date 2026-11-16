@@ -305,3 +305,19 @@ Run with `npm run dev`. Homepage: `/` | Day 18: `/day18`.
 - Interactions: Aircraft search, category filters, aircraft specification modal and rotating flight facts
 - Visuals: Aviation photography, animated hero, floating elements and gallery
 - Responsive: Desktop, tablet and mobile layouts
+
+## Day 24 - OPSTRACK: Engineering Delivery & Project Operations
+
+A professional frontend project operations workspace featuring an interactive Kanban board, task creation, priority filtering, team workload, sprint progress, and activity feed.
+
+### Features
+- Interactive task board with four workflow stages
+- Create, move, search, filter, and delete tasks
+- Team workload and sprint progress dashboard
+- Responsive SaaS workspace layout
+- Graphite, electric blue, and acid lime design system
+- React state-driven interactions
+
+### Stack
+React, Vite, JavaScript, CSS
+
