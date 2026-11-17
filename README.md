@@ -321,3 +321,23 @@ A professional frontend project operations workspace featuring an interactive Ka
 ### Stack
 React, Vite, JavaScript, CSS
 
+
+## Day 25 - CLOUDMETER: Cloud Cost Intelligence & FinOps Platform
+
+A professional cloud financial operations interface for monitoring infrastructure spending, budgets, service costs, resource inventory, and optimization opportunities.
+
+### Features
+- Cloud expenditure analytics and visual spending chart
+- Monthly and quarterly period switching
+- Editable budget and budget utilization alerts
+- Service spending breakdown with category and region filters
+- Cost optimization recommendations with apply and dismiss actions
+- Resource inventory with search and status filtering
+- Downloadable CSV resource report
+- Responsive enterprise interface
+
+### Stack
+React, Vite, JavaScript, CSS
+
+Note: This is a frontend demonstration using sample cloud billing and resource data. It does not connect to a real cloud provider or execute infrastructure changes.
+
