@@ -1,5 +1,5 @@
-﻿import Day24 from "./days/Day24"
+﻿import Day25 from "./days/Day25"
 
 export default function App() {
-  return <Day24 />
+  return <Day25 />
 }
