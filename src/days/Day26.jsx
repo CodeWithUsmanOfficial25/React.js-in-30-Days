@@ -4,6 +4,7 @@ import IncidentRow from "../components/day26/IncidentRow";
 import TrafficChart from "../components/day26/TrafficChart";
 import { threatStats, initialIncidents, activity, traffic, categories } from "../data/day26Data";
 import "./Day26.css";
+import ThreatMap from "../components/day26/ThreatMap";
 
 export default function Day26() {
   const [incidents, setIncidents] = useState(initialIncidents);
@@ -107,6 +108,8 @@ export default function Day26() {
             </article>
           </section>
 
+          <ThreatMap />
+
           <section className="td-panel incidents-panel" id="incidents">
             <div className="panel-heading incident-heading"><div><span className="panel-kicker">THREAT RESPONSE</span><h2>Incident queue <span className="count-badge">{activeCount}</span></h2><p>Review, investigate and manage security incidents.</p></div><button className="text-action" onClick={() => { setFilter("All incidents"); setSearch(""); }}>Reset filters ↗</button></div>
             <div className="incident-toolbar"><label className="search-box"><span>⌕</span><input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search incidents, IPs or targets..." /></label><select value={filter} onChange={e => setFilter(e.target.value)}>{categories.map(item => <option key={item}>{item}</option>)}</select></div>
@@ -156,3 +159,4 @@ export default function Day26() {
     </main>
   );
 }
+
