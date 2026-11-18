@@ -341,3 +341,14 @@ React, Vite, JavaScript, CSS
 
 Note: This is a frontend demonstration using sample cloud billing and resource data. It does not connect to a real cloud provider or execute infrastructure changes.
 
+
+## Day 26 — THREATDESK: Security Operations & Incident Response
+
+- Built a professional cybersecurity operations console.
+- Added threat metrics, severity distribution and network telemetry visualization.
+- Implemented searchable and filterable incident queue.
+- Added interactive incident investigation and resolution workflow.
+- Added simulated network topology and security event audit trail.
+- Added responsive layouts, glass surfaces, clay-style cards and animated interactions.
+- Technologies: React, JavaScript, CSS, SVG.
+- This is a frontend demonstration using sample security data. It does not connect to real infrastructure or execute real security actions.
