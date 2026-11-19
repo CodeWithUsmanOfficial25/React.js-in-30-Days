@@ -352,3 +352,6 @@ Note: This is a frontend demonstration using sample cloud billing and resource d
 - Added responsive layouts, glass surfaces, clay-style cards and animated interactions.
 - Technologies: React, JavaScript, CSS, SVG.
 - This is a frontend demonstration using sample security data. It does not connect to real infrastructure or execute real security actions.
+
+## Day 27 — TERRAFLUX
+3D-inspired planetary eco-tech command center featuring kinetic typography, animated Earth, orbital rings, moving network routes, interactive energy controls, claymorphism and neumorphism.
