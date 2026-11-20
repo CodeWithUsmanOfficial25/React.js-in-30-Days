@@ -355,3 +355,6 @@ Note: This is a frontend demonstration using sample cloud billing and resource d
 
 ## Day 27 — TERRAFLUX
 3D-inspired planetary eco-tech command center featuring kinetic typography, animated Earth, orbital rings, moving network routes, interactive energy controls, claymorphism and neumorphism.
+
+## Day 28 — NEBULA
+High-motion cosmic experience studio with animated orbital core, kinetic typography, light streaks, moving marquee, 3D-style mission cards and interactive quantum controls.
