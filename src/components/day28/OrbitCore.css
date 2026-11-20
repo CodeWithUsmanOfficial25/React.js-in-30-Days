@@ -1,0 +1,34 @@
+﻿.core-stage{position:absolute;width:min(100%,600px);aspect-ratio:1;left:50%;top:50%;transform:translate(-50%,-50%);transform-style:preserve-3d;perspective:1000px;animation:coreHover 6s ease-in-out infinite}
+.core-sphere{position:absolute;width:35%;aspect-ratio:1;left:32.5%;top:32.5%;border-radius:50%;z-index:5;transform-style:preserve-3d;box-shadow:0 0 35px #3c9dff99,0 0 100px #247bff77,0 0 180px #237bff44,inset -20px -20px 35px #020817;animation:sphereFloat 5s ease-in-out infinite}
+.sphere-surface{position:absolute;inset:0;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 30% 24%,#e1f2ff 0,#83c7ff 12%,#2f7ce9 37%,#142e79 68%,#071126 100%);box-shadow:inset -25px -15px 40px #020817,inset 10px 8px 25px #ffffff99}
+.sphere-surface:before{content:"";position:absolute;inset:-20%;background:repeating-linear-gradient(145deg,transparent 0 12px,#b6e1ff28 13px 16px,transparent 17px 29px);animation:surfaceDrift 9s linear infinite}
+.sphere-continent{position:absolute;background:linear-gradient(135deg,#fff0c9,#b9a47e 50%,#67563e);filter:drop-shadow(3px 4px 4px #071326);opacity:.95}
+.continent-a{width:35%;height:46%;left:18%;top:15%;clip-path:polygon(24% 0,100% 14%,79% 48%,90% 72%,47% 100%,8% 69%,0 30%);transform:rotate(24deg)}
+.continent-b{width:26%;height:42%;left:48%;top:42%;clip-path:polygon(16% 0,100% 24%,76% 68%,35% 100%,0 60%);transform:rotate(-18deg)}
+.continent-c{width:24%;height:20%;right:5%;top:20%;clip-path:polygon(0 20%,60% 0,100% 40%,70% 100%,20% 80%)}
+.sphere-cloud{position:absolute;width:70%;height:7%;border-radius:50%;background:#e3f3ff9c;filter:blur(4px);transform:rotate(-28deg);animation:cloudFlight 7s linear infinite}
+.cloud-a{left:0;top:35%}.cloud-b{left:30%;top:68%;width:55%;animation-delay:-3s}
+.sphere-glint{position:absolute;inset:0;border-radius:50%;background:linear-gradient(120deg,#fff8,transparent 38%,transparent 72%,#010b1d99)}
+.sphere-inner-ring{position:absolute;inset:-12%;border:2px solid #a8dcff66;border-radius:50%;transform:rotateX(70deg);box-shadow:0 0 15px #5abaff66}
+.core-aura{position:absolute;left:50%;top:50%;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none}
+.aura-one{width:52%;height:52%;background:#297fff55;filter:blur(45px);animation:auraPulse 2.5s infinite alternate}
+.aura-two{width:72%;height:72%;border:2px solid #7dc6ff44;box-shadow:0 0 45px #268bff66,inset 0 0 35px #268bff55;animation:auraRotate 12s linear infinite}
+.core-orbit{position:absolute;left:50%;top:50%;border:2px solid #80caff9c;border-radius:50%;transform-style:preserve-3d;box-shadow:0 0 17px #398eff55,inset 0 0 12px #398eff22}
+.orbit-a{width:85%;height:31%;transform:translate(-50%,-50%) rotate(-25deg);animation:orbitA 5s linear infinite}
+.orbit-b{width:98%;height:48%;transform:translate(-50%,-50%) rotate(57deg);border-color:#fff0c9aa;animation:orbitB 7s linear infinite}
+.orbit-c{width:112%;height:63%;transform:translate(-50%,-50%) rotate(12deg);border-color:#64b8ff99;animation:orbitC 9s linear infinite}
+.orbit-d{width:75%;height:105%;transform:translate(-50%,-50%) rotate(65deg);border-color:#d8c49b77;animation:orbitD 11s linear infinite}
+.orbit-e{width:125%;height:24%;transform:translate(-50%,-50%) rotate(-42deg);border-color:#9bcfff99;animation:orbitE 6s linear infinite}
+.orbit-moon{position:absolute;display:block;width:17px;height:17px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#fff,#80caff 45%,#1762bb);box-shadow:0 0 18px #69baff,0 0 38px #348cff}
+.moon-a{left:12%;top:7%}.moon-b{right:12%;top:13%;background:radial-gradient(circle at 30% 25%,#fff5db,#d5ad70 50%,#88613d);box-shadow:0 0 20px #e9c58b}
+.moon-c{right:5%;bottom:12%}.moon-d{left:10%;bottom:12%;width:12px;height:12px;background:#f5e7c7}
+.moon-e{right:20%;top:-7%;width:10px;height:10px}
+.core-crosshair{position:absolute;left:50%;top:50%;border:1px dashed #b9dfff55;border-radius:50%;transform:translate(-50%,-50%);animation:crosshairSpin 18s linear infinite}
+.crosshair-a{width:140%;height:140%}.crosshair-b{width:155%;height:155%;animation-direction:reverse;animation-duration:27s}
+.core-label,.core-coordinate{position:absolute;font:9px 'DM Mono';letter-spacing:2px;color:#b8ddff;text-shadow:0 0 12px #52aaff}
+.core-label-top{top:5%;left:50%;transform:translateX(-50%)}
+.core-label-bottom{bottom:3%;left:50%;transform:translateX(-50%);color:#f1d9aa}
+.core-coordinate{font-size:8px;color:#e4d3ad}
+.coordinate-a{left:1%;top:30%}.coordinate-b{right:0;top:55%}.coordinate-c{left:15%;bottom:14%}
+.core-particle{position:absolute;width:9px;height:9px;border-radius:50%;background:#cceaff;box-shadow:0 0 20px #61baff,0 0 40px #348cff;animation:particleFly 4s ease-in-out infinite}
+.particle-a{left:9%;top:35%}.particle-b{right:7%;top:25%;animation-delay:-1s}.particle-c{right:18%;bottom:7%;animation-delay:-2s}.particle-d{left:22%;bottom:5%;animation-delay:-3s}.particle-e{right:0;top:67%;width:5px;height:5px}
